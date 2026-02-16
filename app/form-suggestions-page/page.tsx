@@ -4,7 +4,7 @@ export default function SuggestionsFormPage() {
       <div className="content-title">
         <h1>Suggestions</h1>
       </div>
-      <p>This page is under construction.</p>
+      <p> I like Pizza </p>
     </main>
   );
 }

@@ -1,10 +1,12 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
       <section className="main">
+        <Button>Get Started</Button>
         <div className="main__heroContent">
           <div className="main__heroWords">
             <h1>
@@ -61,7 +63,7 @@ export default function Home() {
 
           <div className="testimonial-image">
             <Image
-              src="/images/manstudying.jpg"
+              src="/manstudying.jpg"
               alt="Testimonial"
               width={500}
               height={300}
@@ -117,7 +119,7 @@ export default function Home() {
 
           <div className="community-image">
             <Image
-              src="/images/indiabeauty.jpg"
+              src="/indiabeauty.jpg"
               alt="Community"
               width={500}
               height={300}
